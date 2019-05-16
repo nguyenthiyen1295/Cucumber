@@ -1,0 +1,354 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 30,
+        "name": "Register and Login to application",
+        "description": "",
+        "id": "register-and-login;register-and-login-to-application;new-customer-info;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11110608500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open application",
+            "match": {
+              "location": "RegisterAndLoginSteps.iOpenApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23468400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get Login page Url",
+            "match": {
+              "location": "RegisterAndLoginSteps.iGetLoginPageUrl()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1932226200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click to here link",
+            "match": {
+              "location": "RegisterAndLoginSteps.iClickToHereLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2255169400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input to email textbox with data \"autorandom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "autorandom",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterAndLoginSteps.iInputToEmailTextboxWithData(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121759900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click to Submit button at Register page",
+            "match": {
+              "location": "RegisterAndLoginSteps.iClickToSubmitButtonAtRegisterPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1559211700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I get UserID infor",
+            "match": {
+              "location": "RegisterAndLoginSteps.iGetUserIDInfor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 328200000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get Password infor",
+            "match": {
+              "location": "RegisterAndLoginSteps.iGetPasswordInfor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1925769900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I open login page again",
+            "match": {
+              "location": "RegisterAndLoginSteps.iOpenLoginPageAgain()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80599100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I input to Username textbox",
+            "match": {
+              "location": "RegisterAndLoginSteps.iInputToUsernameTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52449000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I input to Password textbox",
+            "match": {
+              "location": "RegisterAndLoginSteps.iInputToPasswordTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452324400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click to Login button at Login page",
+            "match": {
+              "location": "RegisterAndLoginSteps.iClickToLoginButtonAtLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2128912100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify Home page displayed with message \"Welcome To Manager\u0027s Page of Guru99 Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome To Manager\u0027s Page of Guru99 Bank",
+                  "offset": 41
+                }
+              ],
+              "location": "RegisterAndLoginSteps.verifyHomePageDisplayedWithMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2437974100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I open New Customer page",
+            "match": {
+              "location": "RegisterAndLoginSteps.iOpenNewCustomerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1090551200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Input to New Customer form with data",
+            "match": {
+              "location": "RegisterAndLoginSteps.inputToNewCustomerFormWithData(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Gender",
+                  "DateOfBirth",
+                  "Address",
+                  "City",
+                  "State",
+                  "Pin",
+                  "Phone",
+                  "EMail",
+                  "Password"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Automation",
+                  "m",
+                  "1999_01_01",
+                  "123 Le Loi",
+                  "Ho Noi",
+                  "Chau Anh",
+                  "123456",
+                  "0908765543",
+                  "Autotest",
+                  "123321"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1765776300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click to Submit button at New Customer page",
+            "match": {
+              "location": "RegisterAndLoginSteps.iClickToSubmitButtonAtNewCustomerPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367949800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify message displayed with data \"Customer Registered Successfully!!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Registered Successfully!!!",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterAndLoginSteps.verifyMessageDisplayedWithData(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38921900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I verify all above infomation created success",
+            "match": {
+              "location": "RegisterAndLoginSteps.iVerifyAllAboveInfomationCreatedSuccess(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Gender",
+                  "DateOfBirth",
+                  "Address",
+                  "City",
+                  "State",
+                  "Pin",
+                  "Phone",
+                  "EMail"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "Automation",
+                  "male",
+                  "1999_01_01",
+                  "123 Le Loi",
+                  "Ho Noi",
+                  "Chau Anh",
+                  "123456",
+                  "0908765543",
+                  "Autotest"
+                ],
+                "line": 25
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32055100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I get Customer ID at New Customer page",
+            "match": {
+              "location": "RegisterAndLoginSteps.iGetCustomerIDAtNewCustomerPage()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@createCustomer"
+          }
+        ]
+      }
+    ],
+    "name": "Register and login",
+    "description": "",
+    "id": "register-and-login",
+    "keyword": "Feature",
+    "uri": "customer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@createCustomer"
+      }
+    ]
+  }
+]
